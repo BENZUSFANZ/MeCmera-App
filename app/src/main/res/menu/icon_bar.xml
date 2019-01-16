@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/icHome"
+        android:icon="@drawable/ic_home_black_24dp"
+        />
+
+    <item
+        android:id="@+id/icBlock"
+        android:icon="@drawable/ic_block_black_24dp"
+
+        />
+
+    <item
+        android:id="@+id/icSearch"
+        android:icon="@drawable/ic_search_black_24dp"
+
+         />
+
+    <item
+        android:id="@+id/icNotifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+
+        />
+
+    <item
+        android:id="@+id/icOther"
+        android:icon="@drawable/ic_other_black_24dp"
+
+       />
+
+</menu>

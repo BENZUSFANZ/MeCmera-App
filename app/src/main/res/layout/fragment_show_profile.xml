@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyStore.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/kanit"
+                android:text="โปรไฟล์"
+                android:textSize="21dp" />
+
+            <TextView
+                android:id="@+id/tvSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="5dp"
+                android:layout_alignEnd="@id/btnLogin"
+                android:layout_alignParentBottom="true"
+                android:drawableLeft="@drawable/ic_settings_24dp"
+                android:fontFamily="@font/kanit"
+                android:textColor="#949494"
+                android:text=" การตั้งค่า" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/kanit"
+                android:text="ชื่อร้าน"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tvStore"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:background="#ececec"
+                android:textColor="#000000"
+                android:fontFamily="@font/kanit"
+                android:padding="3dp"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/kanit"
+                android:text="ประเภทธุรกิจ"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tvCategory"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:background="#ececec"
+                android:textColor="#000000"
+                android:fontFamily="@font/kanit"
+                android:padding="3dp"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/kanit"
+                android:text="ที่อยู่"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:background="#ececec"
+                android:textColor="#000000"
+                android:fontFamily="@font/kanit"
+                android:padding="3dp"
+                android:textSize="18dp" />
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="309dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/kanit"
+                android:text="สำเนาบัตรประชาชน"
+                android:textSize="18dp" />
+
+
+            <ImageView
+                android:id="@+id/imCredit"
+                android:layout_width="309dp"
+                android:layout_height="106dp"
+                android:background="@drawable/button_shape_image"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+</FrameLayout>

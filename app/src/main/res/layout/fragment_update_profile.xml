@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyStore.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/kanit"
+                android:text="โปรไฟล์"
+                android:textSize="21dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/kanit"
+                android:text="ชื่อร้าน"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edtStore"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:background="#ececec"
+                android:fontFamily="@font/kanit"
+                android:padding="3dp"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/kanit"
+                android:text="ประเภทธุรกิจ"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edtCategory"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:background="#ececec"
+                android:fontFamily="@font/kanit"
+                android:padding="3dp"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/kanit"
+                android:text="ที่อยู่"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edtAddress"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:background="#ececec"
+                android:fontFamily="@font/kanit"
+                android:padding="3dp"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/kanit"
+                android:text="สำเนาบัตรประชาชน"
+                android:textSize="18dp" />
+
+
+            <ImageView
+                android:id="@+id/imCredit"
+                android:layout_width="309dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_shape_image"
+                android:src="@drawable/ic_plus_24dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button_shape_white"
+                    android:fontFamily="@font/kanit"
+                    android:text="ยกเลิก" />
+
+                <Button
+                    android:id="@+id/btnUpdate"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button_shape_orange"
+                    android:fontFamily="@font/kanit"
+                    android:text="ตกลง" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+</FrameLayout>

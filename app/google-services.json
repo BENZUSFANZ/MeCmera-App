@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "291944527912",
+    "firebase_url": "https://mecamerafcm.firebaseio.com",
+    "project_id": "mecamerafcm",
+    "storage_bucket": "mecamerafcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291944527912:android:3c83afa71e82fd49",
+        "android_client_info": {
+          "package_name": "com.example.benz.mecamera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291944527912-katbr60mrj0f9feil00mh8n8bdr0u2c5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSDHoLx0siAHUGI4I3OFe8Cqt35n0p0hI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f57c00</color>
+    <color name="colorPrimaryDark">#bb4d00</color>
+    <color name="colorAccent">#ffad42</color>
+
+    <color name="colorLogin">#ffe0b2</color>
+
+    <color name="colorNoti">#10f57c00</color>
+    <color name="colorNotiMe">#10949494</color>
+
+    <color name="colorLike">#949494</color>
+    <color name="colorLiked">#6e6e6e</color>
+
+    <color name="colorBgNoti">#f9f9f9</color>
+
+
+
+</resources>

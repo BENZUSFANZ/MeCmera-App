@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyStore.StoreFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/kanit"
+                android:text="สร้างโพสต์เช่า"
+                android:textSize="21dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/kanit"
+                android:text="ชื่อโพสต์"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edtCaptions"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:background="#ececec"
+                android:fontFamily="@font/kanit"
+                android:padding="3dp"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/kanit"
+                android:text="ราคาต่อวัน"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edtPrice"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:background="#ececec"
+                android:fontFamily="@font/kanit"
+                android:padding="3dp"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/kanit"
+                android:text="รูปภาพ"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/imStore"
+                android:layout_width="309dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_plus_24dp"
+                android:background="@drawable/button_shape_image" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="145dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button_shape_white"
+                    android:fontFamily="@font/kanit"
+                    android:text="ยกเลิก" />
+
+                <Button
+                    android:id="@+id/btnOk"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button_shape_orange"
+                    android:fontFamily="@font/kanit"
+                    android:text="ตกลง" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbStore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+</FrameLayout>
